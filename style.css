@@ -1,0 +1,93 @@
+.mwangi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: honeydew;
+    margin: auto;
+}
+body{
+    background-color: bisque;
+
+}
+.mwangi :hover{
+    color: red;
+}
+#joan{
+    overflow: hidden;
+}
+#joan figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 10s joan infinite;
+    font-size: 0;
+}
+#joan figure img{
+    float: left;
+    width: 20% ;
+    height: 300px;
+}
+@keyframes joan{
+    0% {left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+}
+.jmw{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.jmw p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abt img{
+    width: 20%;
+    height: 10%;
+    border-radius: 80%;
+}
+.abt h1{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: firebrick;
+}
+.abt p{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+.abt {
+    text-align: center;
+    justify-content: center;
+}
+.footer {
+    text-align: right;
+    justify-content: right;
+    background-color: rgb(177, 177, 187);
+}
+.vicky {text-align: center;
+    justify-content: center;
+    background-color: rgb(177, 177, 187);
+
+}
+.pictures img{
+    width: 400px;
+    height: 400px;
+
+}
+.kabu h1{
+    text-align: center;
+    font-size:50px;
+
+    
+}
